@@ -7,3 +7,29 @@
   50%  { transform: rotate(2deg); }
   100% { transform: rotate(-2deg); }
 }
+
+
+
+@keyframes downloadBounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+.download-motion {
+  display: inline-block;
+  animation: downloadBounce 1s ease-in-out infinite;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+

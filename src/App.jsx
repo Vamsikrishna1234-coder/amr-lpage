@@ -1,48 +1,62 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Header from "../src/components/header.jsx";
+import { useState } from "react";
+
+import Header from "./components/header.jsx";
 import MainLayout from "./components/Mainlayout.jsx";
-import EnquiryForm from "./components/enquiry.jsx";
 import About from "./components/About.jsx";
 import PriceSection from "./components/Price.jsx";
 import Amenities from "./components/Amenities.jsx";
 import Gallery from "./components/Gallery.jsx";
-import Location from "./components/Location.jsx";  
-import CompanyInfo from './components/Companyinfo.jsx';
-import './App.css'
+import Location from "./components/Location.jsx";
+import EnquiryForm from "./components/enquiry.jsx";
+import CompanyInfo from "./components/Companyinfo.jsx";
+import PopupForm from "./components/Popupform.jsx";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [showPopup, setShowPopup] = useState(false);
+  const [popupTitle, setPopupTitle] = useState("");
+
+  const openPopup = (title) => {
+    setPopupTitle(title);
+    setShowPopup(true);
+  };
+
+  const closePopup = () => {
+    setShowPopup(false);
+  };
 
   return (
     <>
-      
-      <Header />
 
-      <MainLayout/>
+     
+      <Header openPopup={openPopup} />
 
+      <MainLayout openPopup={openPopup} />
 
-      <EnquiryForm />
+      <About openPopup={openPopup} />
 
+      <PriceSection openPopup={openPopup} />
 
-      <About />
+      <Amenities openPopup={openPopup} />
 
+      <Gallery openPopup={openPopup} />
 
-      <PriceSection />
+      <Location openPopup={openPopup} />
+    
 
-
-      <Amenities />
-
-      <Gallery />
-
-      <Location />
-
+      <EnquiryForm openPopup={openPopup} />
 
       <CompanyInfo />
 
+      {showPopup && (
+        <PopupForm
+          title={popupTitle}
+          closePopup={closePopup}
+        />
+      )}
     </>
-  )
+  );
 }
 
-export default App
+export default App;

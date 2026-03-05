@@ -32,28 +32,28 @@ export default function CompanyInfo() {
               marginBottom: "20px",
             }}
           >
-            About Godrej Properties Limited
+            About AMR Legacy Villas
           </h2>
 
           {/* CONTENT */}
           <p
-            style={{
-              fontSize: "22px",
-              lineHeight: 1.8,
-              color: "#000",
-            }}
-          >
-            The Godrej story began in 1897, a legacy built during India’s
-            independence and Swadeshi movement, now shaping the lives of 1.1
-            billion consumers worldwide. From consumer goods to real estate,
-            appliances to agriculture, the Group is a name synonymous with
-            national pride. Continuing this legacy in real estate, Godrej
-            Properties Limited (GPL) was founded in 1990, bringing together 128
-            years of heritage with contemporary design, sustainability, and
-            innovation. With over 400 awards to its name, GPL was also honoured
-            as “The Most Trusted Real Estate Brand” in 2019, a true testament to
-            its excellence in the industry.
-          </p>
+              style={{
+                fontSize: "22px",
+                lineHeight: 1.8,
+                color: "#000",
+              }}
+            >
+              AMR Legacy Villas represents a thoughtfully planned residential development
+              designed to offer a refined lifestyle in the fast-growing surroundings of
+              Gowrelly, Hyderabad. Developed with a focus on quality construction,
+              contemporary design, and long-term value, the project brings together
+              spacious villas, landscaped open spaces, and modern lifestyle amenities.
+              Located close to the Outer Ring Road, AMR Legacy ensures excellent
+              connectivity to key parts of the city while maintaining a peaceful and
+              private residential environment. With attention to detail, elegant
+              architecture, and a commitment to comfortable living, AMR Legacy creates a
+              premium villa community for families seeking both luxury and convenience.
+            </p>
         </div>
       </section>
 
@@ -71,29 +71,33 @@ export default function CompanyInfo() {
             lineHeight: 1.6,
             color: "#333",
             maxWidth: "1450px",
-            
           }}
         >
-          <strong>Project disclaimer:</strong> The Project is registered as
-          Godrej Regal Pavilion with TGRERA Registration No. P02400000910
-          available on TGRERA website, https://rera.telangana.gov.in/ <br />
+          <strong>Project Disclaimer:</strong> The project "AMR Legacy Villas"
+          is registered with TGRERA under Registration No. <strong>P02400009909</strong>,
+          and details are available on the TGRERA website: https://rera.telangana.gov.in/ <br />
+
           <strong>Disclaimer:</strong> The content presented on this website is
           solely for informational purposes and does not constitute a service
           offer. Prices mentioned here are subject to change without prior
           notification, and the availability of listed properties is not
           assured. Images showcased are illustrative and may not precisely
           represent the actual properties. Kindly be advised that this website
-          operates as an authorized channel partner. Additionally, updates and
-          information may be sent to the registered mobile number or email ID.
-          All rights reserved. This website’s content, design, and data are
-          protected by copyright and other intellectual property rights.
-          Unauthorized use or reproduction of the content may be subject to
-          legal repercussions. For precise and current information on services,
-          pricing, availability, or any other details, we recommend you contact
-          us directly via the provided contact information on this website. We
-          appreciate your visit.
+          operates as an authorized marketing channel partner. Additionally,
+          updates and information may be sent to the registered mobile number
+          or email ID. All rights reserved. This website’s content, design,
+          and data are protected by copyright and other intellectual property
+          rights. Unauthorized use or reproduction of the content may be
+          subject to legal repercussions. For precise and current information
+          on services, pricing, availability, or any other details, we
+          recommend contacting us directly through the contact information
+          provided on this website. We appreciate your visit.
         </p>
       </div>
     </>
   );
 }
+
+
+
+
