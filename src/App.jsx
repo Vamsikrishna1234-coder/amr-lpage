@@ -9,6 +9,7 @@ import Gallery from "./components/Gallery.jsx";
 import Location from "./components/Location.jsx";
 import EnquiryForm from "./components/enquiry.jsx";
 import CompanyInfo from "./components/Companyinfo.jsx";
+import Disclaimer from "./components/Disclamier.jsx";
 import PopupForm from "./components/Popupform.jsx";
 import "./App.css";
 
@@ -48,6 +49,8 @@ function App() {
       <EnquiryForm openPopup={openPopup} />
 
       <CompanyInfo />
+
+      <Disclaimer />
 
       {showPopup && (
         <PopupForm
