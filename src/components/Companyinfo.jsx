@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function CompanyInfo() {
-  const beige = "#f1d48b";
+  const beige = "#d85b26bf";
 
   return (
     <section
@@ -16,7 +16,7 @@ export default function CompanyInfo() {
       <div
         className="company-container"
         style={{
-          width: "93%",
+          width: "92%",
           maxWidth: "1450px",
           background: "#ffffff",
           padding: "50px 70px 50px 50px",

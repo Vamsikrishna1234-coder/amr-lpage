@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Disclaimer() {
-  const beige = "#f1d48b";
+  const beige = "#d85b26bf";
 
   return (
     <section
@@ -25,7 +25,7 @@ export default function Disclaimer() {
         <p
           className="disclaimer-text"
           style={{
-            fontSize: "13px",
+            fontSize: "10px",
             lineHeight: 1.6,
             color: "#333",
           }}
@@ -77,7 +77,23 @@ export default function Disclaimer() {
           }
 
         }
+         /* DESKTOP FIX – prevent overlap with enquiry sidebar */
 
+          @media (min-width:1024px) and (max-width:1279px){
+
+            .disclaimer-section{
+              padding-right:260px !important;
+            }
+
+          }
+
+          @media (min-width:1280px){
+
+            .disclaimer-section{
+              padding-right:380px !important;
+            }
+
+          }
         /* Small Phones */
 
         @media (max-width: 480px) {
@@ -92,7 +108,7 @@ export default function Disclaimer() {
           }
 
         }
-
+        
         /* Tablets */
 
         @media (min-width: 481px) and (max-width: 1023px) {

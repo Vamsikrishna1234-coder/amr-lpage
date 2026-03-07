@@ -1,118 +1,3 @@
-// import React from "react";
-
-// export default function About({ openPopup }) {
-//   const gold = "#b88a0b";
-//   const beige = "#f1d48b";
-
-//   return (
-//     <section 
-//       style={{
-//         backgroundColor: beige,
-//         padding: "20px 0",
-//         display: "flex",
-//         justifyContent: "flex-start",   // 🔥 NOT CENTER
-//       }}
-//     >
-//       <div
-//         style={{
-//           width: "95%",                 // 🔥 SMALLER WIDTH (IMPORTANT)
-//           maxWidth: "1450px",
-//           marginLeft: "0px",           // 🔥 PUSHES IT FROM LEFT
-//           background: "#ffffff",
-//           padding: "50px 80px 50px 50px", // 🔥 RIGHT SIDE BIGGER
-//           borderRadius: "6px",
-//           border: "1px solid #e5d6a7",
-//         }}
-//       >
-//         {/* OVERVIEW BUTTON */}
-//         <div
-//           style={{
-//             display: "inline-block",
-//             border: `2px solid ${gold}`,
-//             color: gold,
-//             padding: "8px 26px",
-//             borderRadius: "30px",
-//             fontWeight: "600",
-//             marginBottom: "30px",
-//             background: "transparent",
-//             fontSize: "25px",
-//           }}
-//         >
-//           Overview
-//         </div>
-
-//         {/* HEADING */}
-//         <h2
-//           style={{
-//             color: gold,
-//             fontSize: "35px",
-//             fontWeight: "500",
-//             marginBottom: "20px",
-//             lineHeight: 1.3,
-//           }}
-//         >
-//           About AMR Legacy, Gowrelly, Hyderabad
-//         </h2>
-
-//         {/* DESCRIPTION */}
-//         <p
-//           style={{
-//             fontSize: "22px",
-//             lineHeight: 1.7,
-//             color: "#000000",
-//             marginBottom: "40px",
-//           }}
-//         >
-//           Located in the serene surroundings of Gowrelly, AMR Legacy Villas offers an
-//           exclusive villa community that blends timeless elegance with contemporary
-//           living. Developed with a vision to create a premium gated neighborhood, AMR
-//           Legacy features thoughtfully designed 3 and 4 BHK luxury villas crafted for
-//           families who appreciate space, privacy, and modern comfort. Inspired by
-//           sophisticated architectural design and surrounded by lush landscapes, these
-//           villas provide a peaceful retreat while maintaining excellent connectivity to
-//           Hyderabad through the Outer Ring Road. At AMR Legacy, you don’t just invest
-//           in a home — you embrace a refined lifestyle designed for comfort,
-//           sophistication, and long-term value.
-//         </p>
-
-//         <button
-//   onClick={() => openPopup("Request Brochure")}
-//   style={{
-//     backgroundColor: gold,
-//     color: "#fff",
-//     fontWeight: "600",
-//     padding: "12px 32px",
-//     border: "none",
-//     borderRadius: "6px",
-//     cursor: "pointer",
-//     fontSize: "15px",
-//     boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-//     animation: "continuousTilt 2s ease-in-out infinite",
-//     position: "relative",
-//     overflow: "hidden",
-//     transformStyle: "preserve-3d",
-//   }}
-// >
-//   <span
-//     className="shine"
-//     style={{
-//       position: "absolute",
-//       top: 0,
-//       left: "-60%",
-//       width: "40%",
-//       height: "100%",
-//       background:
-//         "linear-gradient(120deg, transparent, rgba(255,255,255,0.45), transparent)",
-//       transition: "left 0.5s ease",
-//       pointerEvents: "none",
-//     }}
-//   />
-//   Request Brochure
-// </button>
-//       </div>
-//     </section>
-//   );
-// }
 
 
 
@@ -120,7 +5,7 @@ import React from "react";
 
 export default function About({ openPopup }) {
   const gold = "#b88a0b";
-  const beige = "#f1d48b";
+  const beige = "#d85b26bf";
 
   return (
     <section
@@ -135,7 +20,7 @@ export default function About({ openPopup }) {
       <div
         className="about-container"
         style={{
-          width: "95%",
+          width: "92%",
           maxWidth: "1450px",
           marginLeft: "0px",           // original desktop left push
           background: "#ffffff",
@@ -202,7 +87,7 @@ export default function About({ openPopup }) {
           className="about-request-btn"
           onClick={() => openPopup("Request Brochure")}
           style={{
-            backgroundColor: gold,
+            backgroundColor: "#d85b26df",
             color: "#fff",
             fontWeight: "600",
             padding: "12px 32px",
@@ -314,3 +199,7 @@ export default function About({ openPopup }) {
     </section>
   );
 }
+
+
+
+

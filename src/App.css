@@ -1,2 +1,12 @@
  
 
+@keyframes downloadFloat {
+  0%   { transform: translateY(0px); }
+  20%  { transform: translateY(5px); }
+  100% { transform: translateY(0px); }
+}
+
+.download-icon {
+  display: inline-flex;
+  animation: downloadFloat 1s ease-in-out infinite;
+}

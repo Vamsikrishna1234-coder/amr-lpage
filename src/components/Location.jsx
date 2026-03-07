@@ -193,7 +193,7 @@ import img from "../assets/images/amr map.png";
 
 export default function Location({ openPopup }) {
   const gold = "#b88a0b";
-  const beige = "#f1d48b";
+  const beige = "#d85b26bf";
 
   const tabs = ["BUSINESS HUBS", "TRANSIT", "SCHOOLS", "HOSPITALS", "MALLS"];
   const [activeTab, setActiveTab] = useState("BUSINESS HUBS");
@@ -246,7 +246,7 @@ export default function Location({ openPopup }) {
       <div
         className="location-container"
         style={{
-          width: "93%",
+          width: "92%",
           maxWidth: "1450px",
           background: "#ffffff",
           padding: "40px 70px 50px 50px",
@@ -299,8 +299,8 @@ export default function Location({ openPopup }) {
           className="location-heading"
           style={{
             color: "black",
-            fontSize: "32px",
-            fontWeight: "600",
+            fontSize: "35px",
+            fontWeight: "500",
             marginBottom: "15px",
           }}
         >
@@ -345,9 +345,9 @@ export default function Location({ openPopup }) {
               style={{
                 padding: "10px 22px",
                 borderRadius: "4px",
-                border: `2px solid ${gold}`,
-                background: activeTab === tab ? gold : "transparent",
-                color: activeTab === tab ? "#fff" : gold,
+                border: `2px solid ${"#d85b26df"}`,
+                background: activeTab === tab ? "#d85b26df" : "transparent",
+                color: activeTab === tab ? "#fff" :"#d85b26df",
                 fontWeight: "600",
                 cursor: "pointer",
                 fontSize: "15px",
